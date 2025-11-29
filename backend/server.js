@@ -21,9 +21,8 @@ const PORT = process.env.PORT || 5000;
 // Middleware
 app.use(cors({
   origin: [
-    'http://localhost:3000', // Allow local frontend
-    // TODO: Add your Vercel Frontend URL here after deployment
-    // e.g., 'https://stock-prediction-frontend.vercel.app'
+    'http://localhost:3000', 
+    'https://stock-prediction-frontend-seven.vercel.app'
   ],
   credentials: true
 }));
